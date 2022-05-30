@@ -1,72 +1,89 @@
-# Project #10 - Argent Bank API
+![logo-du-projet](https://raw.githubusercontent.com/CathelineOnceUponATime/CathelineGrappin_13_04042022-Front/main/src/assets/argentBankLogo.png)
 
-This codebase contains the code needed to run the backend for Argent Bank.
+# ArgentBank
+> Projet 13 - Utilisez une API pour un compte utilisateur bancaire avec React
+## Author 
 
-## Getting Started
+- Catheline GRAPPIN
+
+## Technologies
+
+- [![Made-with-Javascript](https://img.shields.io/badge/Made%20with-Javascript-green)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+- [![Sassv_1.49.11](https://img.shields.io/badge/Sass-v_1.49.11-ff69b4)](https://sass-lang.com/)
+- [![React-v_18.0.0](https://img.shields.io/badge/React-v_18.0.0-blue)](https://fr.reactjs.org/)
+- [![React-Router-v_6.3.0](https://img.shields.io/badge/React_Router-v_6.3.0-yellow)](https://reactrouter.com/docs/en/v6)
+- [![Redux-Thunk-v_2.4.1](https://img.shields.io/badge/Redux_Thunk-v_2.4.1-red)](https://github.com/reduxjs/redux-thunk)
+
+## Environments
+
+https://github.com/CathelineOnceUponATime/CathelineGrappin_13_04042022-Back
+
+## Resources provided
+
+https://github.com/CathelineOnceUponATime/CathelineGrappin_13_04042022-Back/tree/master/designs
+
+https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API
+
+## Installation
 
 ### Prerequisites
 
-Argent Bank uses the following tech stack:
+- [![npm-v_7.24.1](https://img.shields.io/badge/npm-v_7.24.1-orange)](https://docs.npmjs.com/)
+- [![NodeJs-v_16.10.0](https://img.shields.io/badge/NodeJs-v_16.10.0-red)](https://nodejs.org/en/docs/)
 
-- [Node.js v12](https://nodejs.org/en/)
-- [MongoDB Community Server](https://www.mongodb.com/try/download/community)
+- VSCode
 
-Please make sure you have the right versions and download both packages. You can verify this by using the following commands in your terminal:
+### Installing and launching Back-End
 
-```bash
-# Check Node.js version
-node --version
+Clone the repository of ArgentBank Back-End:
 
-# Check Mongo version
-mongo --version
-```
+`git clone https://github.com/CathelineOnceUponATime/CathelineGrappin_13_04042022-Back.git`
 
-### Instructions
+Inside this back-end repository, install dependencies:
 
-1. Fork this repo
-1. Clone the repo onto your computer
-1. Open a terminal window in the cloned project
-1. Run the following commands:
+`npm install`
 
-```bash
-# Install dependencies
-npm install
+Launch back-end on port 3001 :
 
-# Start local dev server
-npm run dev:server
+`npm run server`
 
-# Populate database with two users
-npm run populate-db
-```
+#### Populated Database Data
 
-Your server should now be running at http://locahost:3001 and you will now have two users in your MongoDB database!
-
-## Populated Database Data
-
-Once you run the `populate-db` script, you should have two users in your database:
-
-### Tony Stark
+##### Tony Stark
 
 - First Name: `Tony`
 - Last Name: `Stark`
 - Email: `tony@stark.com`
 - Password: `password123`
 
-### Steve Rogers
+##### Steve Rogers
 
 - First Name: `Steve`,
 - Last Name: `Rogers`,
 - Email: `steve@rogers.com`,
 - Password: `password456`
 
-## API Documentation
+To see update : https://cloud.mongodb.com/v2/624ab6af0a01ed0c6c716e39#metrics/replicaSet/629497c638f6fb03926e3aa7/explorer/myFirstDatabase/users/find
+
+#### API Documentation
 
 To learn more about how the API works, once you have started your local environment, you can visit: http://localhost:3001/api-docs
 
-## Design Assets
+### Installing and launching Front-end
 
-Static HTML and CSS has been created for most of the site and is located in: `/designs`.
+Clone the repository of ArgentBank Front-End:
 
-For some of the dynamic features, like toggling user editing, there is a mock-up for it in `/designs/wireframes/edit-user-name.png`.
+`git clone https://github.com/CathelineOnceUponATime/CathelineGrappin_13_04042022-Front.git`
 
-And for the API model that you will be proposing for transactitons, the wireframe can be found in `/designs/wireframes/transactions.png`.
+Inside this Front-End repository, install dependencies:
+
+`npm install`
+
+Lauch Front-End on port 3000:
+
+`npm start`
+
+Front-End is now rendered at URL `http://localhost:3000`
+
+
+
